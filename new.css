@@ -1,0 +1,142 @@
+body{
+	background-image: url('http://subtlepatterns.com/images/transp_bg.png');
+}
+#logo {
+	background: url(http://osa.nccu.edu.tw/themes/simple-kris/img/logo.png) no-repeat;
+	witdh:274px;
+	height:130px;
+	text-indent:-9999px;
+}
+#container{
+	
+	width:80%;
+	border:#94B301 1px dashed; 
+	margin-left:10%
+}
+
+#logo:hover{
+	opacity:.5
+}
+#nav li{
+	float: left;
+	list-style: none;
+	padding: 8px 0 4px 15px;
+	
+}
+#nav span:hover{
+	text-decoration:underline;
+	text-decoration-color:white;
+}
+#nav{
+	
+	width:100%;
+	height:40px;
+	background-color:#388bff;
+	border-radius:5px;
+}
+#nav li span{
+	color:white;
+}
+#side{
+	width:20%;
+	display: table-row-group;
+	vertical-align: middle;
+	padding:8px 0 8px 20px;
+	font-size:1em;
+	font-weight:bold;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow:0 20px 10px -10px rgba(255,255,255,0.3) inset;
+		-moz-box-shadow:0 20px 10px -10px rgba(255,255,255,0.3) inset;
+		-webkit-box-shadow:0 20px 10px -10px rgba(255,255,255,0.3) inset;
+	padding: 0 0 0 .5em;
+	margin-bottom: 1em;
+	
+}
+#menu a:hover{
+	text-shadow: 10px 8px 2px #2B2B2B;
+}
+#content h2{
+	color:#E06813;
+}
+
+section{
+	margin-left:1em;
+	display:block;
+	float:right;
+	width:80%;
+	font-size: 1em;
+	font-family: "微軟正黑體","Microsoft JhengHei", Arial, Helvetica, sans-serif;
+	
+}
+footer{
+	
+	width:100%;
+	background-color:#474036;
+	padding:0 0 15px 0;
+	color: #94B301;
+	
+	margin-top:3em; 		
+	font-family:Arial, Helvetica, sans-serif;
+	border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+}
+td{
+	color:#787878;
+	font-weight:bold;
+	font-size:1em;
+	padding-left:1em;
+}
+table a{
+	display:block;
+	border-top:1px dashed #94B301;
+	color:gray;
+	line-height:2em;
+	text-decoration:none;
+	padding-left: 1em;
+	
+}
+a:hover{
+	
+	background-color: #787878;
+	color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 20px 10px -10px rgba(255,255,255,0.3) inset;
+	-moz-box-shadow: 0 20px 10px -10px rgba(255,255,255,0.3) inset;
+	-webkit-box-shadow: 0 20px 10px -10px rgba(255,255,255,0.3) inset;
+}
+table{
+	border-collapse: separate;
+	border-spacing: 1px;
+}
+tbody{
+	
+	vertical-align: middle;
+}
+footer{
+	margin-top:7em;
+}
+footer p{
+	padding-top:20px;
+	font-size: .8em;
+	text-align:center;
+}
+#intro{
+	
+	background-color:#F2F2F8;
+	padding:8px 0 8px 20px;
+	color:#787878;
+	font-size: 			1em;
+	border:1px solid #787878;
+	font-weight:bold;
+	border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+	box-shadow:0 20px 10px -10px rgba(255,255,255,0.3) inset;
+		-moz-box-shadow: 0 20px 10px -10px rgba(255,255,255,0.3) inset;
+		-webkit-box-shadow: 0 20px 10px -10px rgba(255,255,255,0.3) inset;
+}
